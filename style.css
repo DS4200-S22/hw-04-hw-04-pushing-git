@@ -6,13 +6,27 @@ title {
     font-size:larger;
 }
 
-header {
+h1 {
     text-align: center;
 }
 
-.flex {
+.big_div {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
     justify-content: space-evenly;
+
+}
+
+.flex {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.text {
+    top: 26%;
+    left: 27%;
+    position: absolute;
 }
