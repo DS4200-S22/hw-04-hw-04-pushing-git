@@ -2,17 +2,22 @@
 <html> 
 
 <head>
+    
     <meta charset=utf-8/>
     <title>hw-04</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 
 <body>
+
     <h1>Event Handling</h1>
+
 
     <div class = big_div>
         <div class = flex>
+
             <svg id = number onclick="circle1Clicked()" width="200" height="200">
                 <circle id = "circle1" cx="60" cy="60" r="50" stroke="black" stroke-width="1" fill="#9FFFAF"/>
             </svg>
@@ -25,19 +30,24 @@
         </div>
 
 
+
         <div class = flex>
+
             <svg id = border onmouseover="showBorder()" onmouseout="hideBorder()" class = "addBorder" width="200" height="200">
                 <circle id = "circle2" cx="60" cy="60" r="50" fill="#9FFEFF"/>
             </svg>
         </div>
 
 
+
         <div class = flex>
+
             <svg id = disappear onclick="disappear()" width="200" height="200">
                 <circle id = "circle3" class = "gone" cx="60" cy="60" r="50" stroke="black" stroke-width="1" fill="#F2C1FF"/>
             </svg>
         </div>
     </div>
+
 
 
     <script type="text/javascript" src="main.js"></script>
