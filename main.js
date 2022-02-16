@@ -16,3 +16,22 @@ function circle1Clicked() {
 
 
 
+function showBorder() {
+    let circle2 = document.getElementById("circle2");
+    circle2.setAttribute("stroke", "black");
+  }
+  
+  function hideBorder() {
+    let circle2 = document.getElementById("circle2");
+    circle2.setAttribute("stroke", "white");
+  }
+
+
+  function disappear() {
+    let element = document.getElementById("circle3");
+    if (element.style.opacity == 0) {
+      element.style.opacity = 1;
+    } else {
+      element.style.opacity = 0;
+    }
+  }

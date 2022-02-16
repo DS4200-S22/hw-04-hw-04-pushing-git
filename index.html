@@ -12,9 +12,9 @@
     <h1>Event Handling</h1>
 
     <div class = big_div>
-        <div id = number class = flex>
-            <svg onclick="circle1Clicked()" width="200" height="200">
-                <circle id = "circle1" cx="60" cy="60" r="50" stroke="black" stroke-width="2" fill="#9FFFAF"/>
+        <div class = flex>
+            <svg id = number onclick="circle1Clicked()" width="200" height="200">
+                <circle id = "circle1" cx="60" cy="60" r="50" stroke="black" stroke-width="1" fill="#9FFFAF"/>
             </svg>
 
                 <div class = text>
@@ -26,15 +26,15 @@
 
 
         <div class = flex>
-            <svg width="200" height="200">
-                <circle id = "circle2" cx="60" cy="60" r="50" stroke="black" stroke-width="2" fill="#9FFEFF"/>
+            <svg id = border onmouseover="showBorder()" onmouseout="hideBorder()" class = "addBorder" width="200" height="200">
+                <circle id = "circle2" cx="60" cy="60" r="50" fill="#9FFEFF"/>
             </svg>
         </div>
 
 
         <div class = flex>
-            <svg width="200" height="200">
-                <circle id = "circle3" cx="60" cy="60" r="50" stroke="black" stroke-width="2" fill="#F2C1FF"/>
+            <svg id = disappear onclick="disappear()" width="200" height="200">
+                <circle id = "circle3" class = "gone" cx="60" cy="60" r="50" stroke="black" stroke-width="1" fill="#F2C1FF"/>
             </svg>
         </div>
     </div>
